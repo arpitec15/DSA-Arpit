@@ -3,7 +3,6 @@ package arrays;
 public class BinarySearch {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 //		Condition 
 //		Array should be sorted
 		
@@ -39,9 +38,6 @@ public class BinarySearch {
 		else {
 			return BinarySearchFunc( a, x, mid+1 , end);
 		}
-		
-		
-
 	}
 	
 	
