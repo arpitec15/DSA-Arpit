@@ -1,0 +1,10 @@
+package leetcode.october;
+
+public class RecentCounter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

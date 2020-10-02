@@ -247,3 +247,75 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2020-09-30 09:51:54.137
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.lsp4e 2 0 2020-10-01 07:24:08.148
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:347)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-01 13:30:38.474
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dGcbWXhw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-01 13:30:38.487
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.dGcbWXhw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-01 13:30:38.496
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-01 13:30:38.506
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dGcbWXhw => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-01 16:34:03.143
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-01 16:34:03.154
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3c9e169f[org.springframework.tooling.boot.ls:1.19.0.202006181152(id=1160)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-01 16:34:03.166
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-01 16:34:06.474
+!MESSAGE Boot LS startup time from start to initialized: 3286ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-01 16:34:06.519
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.CLvwFONcisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-01 16:34:06.529
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-01 16:34:06.540
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-01 16:34:06.555
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-01 16:34:06.568
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-01 16:34:06.580
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-01 16:34:06.589
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-01 16:34:06.598
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.CLvwFONc => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-01 16:34:06.607
+!MESSAGE classpath=20 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-01 16:34:06.618
+!MESSAGE buffering callback sts4.classpath.CLvwFONc DataStructures false 20
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-01 16:34:06.627
+!MESSAGE executing callback sts4.classpath.CLvwFONc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-01 16:34:06.652
+!MESSAGE executing callback sts4.classpath.CLvwFONc SUCCESS [done]
